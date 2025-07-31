@@ -48,3 +48,35 @@ console.log(typeof myFunction);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// =============== STACK AND HEAP MEMORY =========
+
+//  Stack (Primitve) 
+
+let name1 = "Swapnil"
+name1 = "Zyne"
+console.log(name1);
+
+let name2 = name1
+name2 = "Angela"
+
+console.log(name1);
+console.log(name2);
+
+
+//  Heap (Non Primitive)
+
+let user1 = {
+    name: "user1",
+    age: 30
+}
+
+let user2 = user1
+
+user2.age= 44
+
+console.log(user1);
+console.log(user2);
+
+
